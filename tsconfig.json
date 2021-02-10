@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "noImplicitAny": false,
+    "strict": true,
+    "sourceMap": false
+  },
+  "include": ["**/*.ts", "**/*.vue"],
+  "exclude": ["/dist", "node_modules"]
+}
