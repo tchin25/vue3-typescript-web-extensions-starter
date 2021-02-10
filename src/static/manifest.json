@@ -1,7 +1,7 @@
 {
-  "name": "Stat Blocker",
+  "name": "Vue 3 Typescript Starter",
   "version": "0.0.1",
-  "description": "Blocks self-stats",
+  "description": "Vue 3 Typescript Starter",
   "manifest_version": 2,
   "permissions": [
     "storage",
