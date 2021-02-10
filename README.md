@@ -1,8 +1,8 @@
 # Vue 3 Typescript Web Extensions Starter
 
-So your boy Thomas over here, while in the middle of building an app, decided to get distracted and web extensions. And since I'm a heavy Vue user, this boilerplate came out of it.
+So your boy Thomas over here, while in the middle of building an app, decided to get distracted and build web extensions. And since I'm a heavy Vue user, this boilerplate came out of it.
 
-This is a boilerplate to creating cross-browser web extensions using Vue 3 and Typescript. It contains an example options page, popup action, background script, content script, and testing script.
+This is a boilerplate to creating cross-browser web-extensions using Vue 3 and Typescript. It contains an example options page, popup action, background script, content script, and testing script.
 
 It contains:
 
