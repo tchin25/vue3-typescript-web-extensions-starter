@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { browser } from "webextension-polyfill-ts";
+import browser from "webextension-polyfill";
 
 export default defineComponent({
   mounted() {

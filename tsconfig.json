@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
     "moduleResolution": "node",
     "target": "ES2020",
     "noImplicitAny": false,

@@ -2,17 +2,18 @@
   "name": "Vue 3 Typescript Starter",
   "version": "0.0.1",
   "description": "Vue 3 Typescript Starter",
-  "manifest_version": 2,
-  "permissions": ["storage", "<all_urls>"],
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "optional_host_permissions": ["*://*/*"],
   "icons": {
     "16": "logo-16.png",
     "48": "logo-48.png",
     "128": "logo-128.png"
   },
   "background": {
-    "scripts": ["js/background.js"]
+    "service_worker": "js/background.js"
   },
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "options_ui": {

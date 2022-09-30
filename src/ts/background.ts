@@ -1,4 +1,4 @@
-import { browser, Runtime } from "webextension-polyfill-ts";
+import browser, { Runtime } from "webextension-polyfill";
 
 browser.runtime.onMessage.addListener(
   (message: any, sender: Runtime.MessageSender) => {
