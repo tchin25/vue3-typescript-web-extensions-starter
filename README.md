@@ -1,7 +1,5 @@
 # Vue 3 Typescript Web Extensions Starter
 
-:warning: This template currently uses manifest_version 2, which is now deprecated and being removed. It will be updated once I have time :) :warning:
-
 So your boy Thomas over here, while in the middle of building an app, decided to get distracted and build web extensions. And since I'm a heavy Vue user, this boilerplate came out of it.
 
 This is a boilerplate to creating cross-browser web-extensions using Vue 3 and Typescript. It contains an example options page, popup action, background script, content script, and testing script.
@@ -9,7 +7,7 @@ This is a boilerplate to creating cross-browser web-extensions using Vue 3 and T
 It contains:
 
 - Vue 3 and Typescript Support
-- Cross-platform supporting using [webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts)
+- Cross-platform supporting using [webextension-polyfill](https://github.com/mozilla/webextension-polyfill)
 - Bundling using Laravel Mix
 - Testing with Jest
 - Shattered remnants of my hopes and dreams
