@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import OptionsScreen from "./components/OptionsScreen.vue";
+import OptionsScreen from "./OptionsScreen.vue";
 
 const app = createApp(OptionsScreen);
 
