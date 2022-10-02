@@ -2,16 +2,14 @@
   <div>Popup</div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import { onMounted } from "vue";
 import browser from "webextension-polyfill";
 
-export default defineComponent({
-  mounted() {
-    // Can access web-extension api through Vue files
-    // Sends a message to the background script every time the popup is opened
-    browser.runtime.sendMessage({ from: "PopupScreen.vue" });
-  },
+onMounted(() => {
+  // Can access web-extension api through Vue files
+  // Sends a message to the background script every time the popup is opened
+  browser.runtime.sendMessage({ from: "PopupScreen.vue" });
 });
 </script>
 
