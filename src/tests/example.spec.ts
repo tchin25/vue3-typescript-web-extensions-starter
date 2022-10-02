@@ -1,5 +1,5 @@
 import { shallowMount } from "@vue/test-utils";
-import OptionsScreen from "@/components/OptionsScreen.vue";
+import OptionsScreen from "@/options/OptionsScreen.vue";
 
 describe("OptionsScreen.vue", () => {
   test("renders options page when passed", () => {

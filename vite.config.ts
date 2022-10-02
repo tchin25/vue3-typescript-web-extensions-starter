@@ -10,6 +10,7 @@ export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
+    sourcemap: !!process.env.SOURCEMAP,
     rollupOptions: {
         output: {
             sanitizeFileName

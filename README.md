@@ -1,6 +1,6 @@
 # Vue 3 Typescript Web Extensions Starter
 
-> *Note: This was created before [vite-plugin-web-extension](vite-plugin-web-extension), which is now definitely the better choice for a generic starter (this project now uses it instead of Webpack). This repo will continue existing as an opinionated starter for myself*
+> *Note: This was created before [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension), which is now definitely the better choice for a generic starter (this project now uses it instead of Webpack). This repo will continue existing as an opinionated starter for myself*
 
 So your boy Thomas over here, while in the middle of building an app, decided to get distracted and build web extensions. And since I'm a heavy Vue user, this boilerplate came out of it.
 
