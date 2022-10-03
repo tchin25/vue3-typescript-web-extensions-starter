@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import PopupScreen from "./components/PopupScreen.vue";
+import PopupScreen from "./PopupScreen.vue";
 
 const app = createApp(PopupScreen);
 

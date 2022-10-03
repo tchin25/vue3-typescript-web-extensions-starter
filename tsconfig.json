@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "target": "ES2020",
-    "noImplicitAny": false,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "strict": true,
-    "sourceMap": false
+    "sourceMap": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": true
   },
-  "include": ["**/*.ts", "**/*.vue"],
-  "exclude": ["/dist", "node_modules"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
