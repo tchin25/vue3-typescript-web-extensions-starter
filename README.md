@@ -11,7 +11,7 @@ It contains:
 - Vue 3 and Typescript Support
 - Cross-platform supporting using [webextension-polyfill](https://github.com/mozilla/webextension-polyfill)
 - Dev tooling and building using [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension)
-- Testing with Jest
+- Testing with Vitest
 - Shattered remnants of my hopes and dreams
 
 Inspired by [this video](https://www.youtube.com/watch?v=kYl271X2LNA).
