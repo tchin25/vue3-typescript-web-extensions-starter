@@ -18,14 +18,16 @@ Inspired by [this video](https://www.youtube.com/watch?v=kYl271X2LNA).
 
 ## Development
 
+> Requires Node >=v14
+
 1. Clone this template
 2. Install dependencies with `yarn`
-3. `yarn build:watch` to build into `dist`, launch a chromium window with the extension installed, and rebuild on file changes
+3. `yarn dev` to build into `dist`, launch a chromium window with the extension installed, and rebuild on file changes
 4. `yarn test` to run unit tests
 
 ## Building
 
-1. `yarn build:prod` to build into `dist`
+1. `yarn build` to build into `dist`
 2. Enable dev mode in `chrome://extensions/` and upload your extension
     - If you want to develop for Firefox, you need the [web-ext cli](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/)
     - Also take a look at the [dynamic browser options](https://vite-plugin-web-extension.aklinker1.io/guide/configuration.html#browser-specific-manifest-fields) in `vite-plugin-web-extension` if you don't want to use `webextension-polyfill`
